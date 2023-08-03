@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px; color: #666666;margin:0
+}
+
+
+.logo a{
+	text-decoration: none; font-size: 20px; font-weight: 100; color: slategrey
+}
+.menu{padding-top: 30px; z-index: 100}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex}
+.menu ul li a{
+	display: block; text-decoration: none; margin: 10px 50px; color: #666666;text-align: center;text-transform: uppercase;}
+.menu ul li a:hover{
+	color: #666666; border: 2px solid #6E8545; font-weight: 100;width: 100px; }
+
+/*sub-menu*/
+.menu ul li{position: relative}
+.menu ul li .sub-menu{
+	position: absolute; left: 0; top:100%; flex-direction: column;width: 200px; border: 2px solid #6E8545;background-color:#E9F8C0; display: none
+}
+.menu ul li:hover .sub-menu{ display: block}
+.menu ul li .sub-menu li{border-bottom: 1px dotted #666666}
+.menu ul li .sub-menu li a{color: #666666}
+.menu ul li .sub-menu li a:hover{color: #2BA38B}
+
+.icon{
+	float: right; padding: 40px 10px}
+.icon a{
+	color:#708090; padding:10px 20px}
+.icon a:hover{ color:#945336; border: 2px solid #6E8545; width: 220px}
+
+#banner-1{width: 100%}
+/*xong header*/
+#main  h1{
+	padding-top: 70px
+}
+.bg-color{
+	background-color: #E9F8C0;
+}
+.text-xanh{
+	color: slategrey
+}
+.vien-line{
+	border: 1px solid #FFFFFF
+}
+.gach-ngang{
+	border-top: 1px dotted #454545; 
+}
+.nonechan{
+	text-decoration: none; width: 200px;font-size: 20px
+}
+.vien-set{
+	border: 5px solid #6E8545; 
+}
